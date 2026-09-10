@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student portal</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Student Registration portal</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#students">Students</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <main>
+       <section>
+         <h2>Welcome Students</h2>
+         <p>register yourself for oour upcoming course</p>
+         <h3>Available course</h3>
+         <ul>
+            <li>Html & Css</li>
+            <li>Javascript</li>
+            <li>React Js</li>
+            <li>Node js</li>
+         </ul>
+       </section>
+       <section>
+        <h2>Students</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Course</td>
+                    <td>Fees</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>nitin</td>
+                    <td>Web Dev.</td>
+                    <td>25000</td>
+                </tr>
+                 <tr>
+                    <td>102</td>
+                    <td>Khushi</td>
+                    <td>MERN</td>
+                    <td>25040</td>
+                </tr>
+                 <tr>
+                    <td>103</td>
+                    <td>Sonu</td>
+                    <td>Python</td>
+                    <td>23390</td>
+                </tr>
+
+            </tbody>
+        </table>
+       </section>
+
+       <section>
+        <h2>student Registration</h2>
+        <form action="">
+            <label for="name">Full Name : 
+                <input type="text" name="name" required>
+            </label>
+            <br><br>
+            <label for="email">
+                Email : 
+                <input type="email" name="email" id="" required>
+            </label>
+            <br><br>
+            <label for="course">Course :
+                <select name="course" id="">
+               <option value="">MERN</option>
+               <option value="">Web d</option>
+                </select>
+            </label>
+        </form>
+       </section>
+    </main>
 </body>
 </html>
